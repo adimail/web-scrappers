@@ -1,438 +1,1157 @@
-2025-02-28 20:31:54,117 - INFO - Chrome driver initialized successfully.
-2025-02-28 20:31:57,419 - INFO - Navigated to https://summerofcode.withgoogle.com/programs/2025/organizations
-2025-02-28 20:31:59,423 - INFO - Organization links loaded successfully.
-2025-02-28 20:31:59,705 - INFO - Found 50 organizations on current page.
-2025-02-28 20:32:04,075 - INFO - Organization links loaded successfully.
-2025-02-28 20:32:04,367 - INFO - Found 50 organizations on current page.
-2025-02-28 20:32:08,306 - INFO - Organization links loaded successfully.
-2025-02-28 20:32:08,606 - INFO - Found 50 organizations on current page.
-2025-02-28 20:32:11,859 - INFO - Organization links loaded successfully.
-2025-02-28 20:32:12,075 - INFO - Found 35 organizations on current page.
-2025-02-28 20:32:14,343 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/fedora-project
-2025-02-28 20:32:15,738 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/processing-foundation
-2025-02-28 20:32:17,012 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/sqlancer
-2025-02-28 20:32:18,796 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/machine-learning-for-science-ml4sci
-2025-02-28 20:32:19,999 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/machine-learning-for-science-ml4sci: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:32:20,027 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openastronomy
-2025-02-28 20:32:21,185 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/pecan-project
-2025-02-28 20:32:22,313 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/django-software-foundation-8o
-2025-02-28 20:32:23,451 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/52north-spatial-information-research-gmbh
-2025-02-28 20:32:24,583 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/jitsi
-2025-02-28 20:32:25,703 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-ns-3-network-simulator-project
-2025-02-28 20:32:26,810 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/deepchem
-2025-02-28 20:32:28,034 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/center-for-translational-data-science
-2025-02-28 20:32:29,215 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/center-for-translational-data-science: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:32:29,244 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/alaska
-2025-02-28 20:32:30,373 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/micro-electronics-research-lab-uitu
-2025-02-28 20:32:32,077 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gnu-image-manipulation-program
-2025-02-28 20:32:33,231 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/r-project-for-statistical-computing
-2025-02-28 20:32:34,364 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/rspamd
-2025-02-28 20:32:35,503 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-jpf-team-hg
-2025-02-28 20:32:37,246 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/wagtail
-2025-02-28 20:32:39,192 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/scala-center
-2025-02-28 20:32:40,305 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/scala-center: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:32:40,334 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/waycrate
-2025-02-28 20:32:41,504 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/llvm-compiler-infrastructure
-2025-02-28 20:32:42,695 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/aflplusplus
-2025-02-28 20:32:43,942 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/qc-devs
-2025-02-28 20:32:45,063 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/incf
-2025-02-28 20:32:46,713 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/circuitverseorg
-2025-02-28 20:32:47,820 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/mixxx
-2025-02-28 20:32:48,953 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/blender-foundation
-2025-02-28 20:32:50,170 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/checkstyle
-2025-02-28 20:32:51,312 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/department-of-biomedical-informatics-emory-university
-2025-02-28 20:32:52,426 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/google-deepmind-sq
-2025-02-28 20:32:53,519 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/google-deepmind-sq: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:32:53,546 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/omegaup
-2025-02-28 20:32:54,676 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/prometheus-operator
-2025-02-28 20:32:55,747 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/prometheus-operator: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:32:55,774 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/jderobot
-2025-02-28 20:32:57,087 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openms
-2025-02-28 20:32:58,964 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/criu
-2025-02-28 20:33:00,153 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/ccextractor-development
-2025-02-28 20:33:01,259 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/cloudcv
-2025-02-28 20:33:02,379 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/pharo-consortium
-2025-02-28 20:33:03,503 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openstreetmap
-2025-02-28 20:33:04,911 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/aboutcode
-2025-02-28 20:33:06,086 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/opensuse-project
-2025-02-28 20:33:07,200 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/pal-robotics
-2025-02-28 20:33:08,320 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-linux-foundation
-2025-02-28 20:33:09,435 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/apache-software-foundation
-2025-02-28 20:33:10,572 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/jenkins-wp
-2025-02-28 20:33:11,870 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-science-initiative-for-perfusion-imaging
-2025-02-28 20:33:13,099 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/cbioportal-for-cancer-genomics
-2025-02-28 20:33:14,250 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/eclipse-foundation
-2025-02-28 20:33:15,396 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/national-resource-for-network-biology-nrnb
-2025-02-28 20:33:16,514 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/scummvm
-2025-02-28 20:33:17,644 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-honeynet-project
-2025-02-28 20:33:18,872 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/joomla
-2025-02-28 20:33:20,105 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/liquid-galaxy-project
-2025-02-28 20:33:21,389 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-p4-language-consortium
-2025-02-28 20:33:22,750 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/libreoffice
-2025-02-28 20:33:24,122 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/git
-2025-02-28 20:33:25,682 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/mariadb
-2025-02-28 20:33:27,124 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gitlab
-2025-02-28 20:33:28,312 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gnome-foundation
-2025-02-28 20:33:29,589 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/inkscape
-2025-02-28 20:33:30,774 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/project-mesa
-2025-02-28 20:33:32,006 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/jabref-ev
-2025-02-28 20:33:33,163 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/data-for-the-common-good
-2025-02-28 20:33:34,295 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gnu-compiler-collection-gcc
-2025-02-28 20:33:35,470 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/mdanalysis
-2025-02-28 20:33:36,629 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-transit-software-foundation
-2025-02-28 20:33:37,802 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/webpack
-2025-02-28 20:33:39,068 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/rizin
-2025-02-28 20:33:40,196 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/python-software-foundation
-2025-02-28 20:33:41,320 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-mifos-initiative
-2025-02-28 20:33:42,458 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/fortran-lang
-2025-02-28 20:33:43,619 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/international-catrobat-association
-2025-02-28 20:33:44,724 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-tor-project
-2025-02-28 20:33:45,884 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/organic-maps
-2025-02-28 20:33:47,042 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-robotics
-2025-02-28 20:33:48,210 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/synfig
-2025-02-28 20:33:49,342 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/postgresql
-2025-02-28 20:33:50,550 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/swift
-2025-02-28 20:33:51,749 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/freecad
-2025-02-28 20:33:52,888 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/haskellorg
-2025-02-28 20:33:54,061 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/uc-ospo
-2025-02-28 20:33:55,206 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/learning-equality
-2025-02-28 20:33:56,342 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/sympy
-2025-02-28 20:33:57,534 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openvino-toolkit
-2025-02-28 20:33:58,602 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/st-jude-childrens-research-hospital-ai
-2025-02-28 20:33:59,771 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/kubevirt
-2025-02-28 20:34:01,016 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/neovim
-2025-02-28 20:34:02,154 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/flare
-2025-02-28 20:34:03,299 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/apache-datafusion
-2025-02-28 20:34:04,473 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/geomscale
-2025-02-28 20:34:05,651 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/wellcome-sanger-institute
-2025-02-28 20:34:06,779 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-freebsd-project
-2025-02-28 20:34:07,880 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gnu-radio
-2025-02-28 20:34:09,057 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/free-and-open-source-silicon-foundation
-2025-02-28 20:34:10,202 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-netbsd-foundation
-2025-02-28 20:34:11,334 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/chaoss
-2025-02-28 20:34:12,505 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/checker-framework
-2025-02-28 20:34:13,654 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/zendalona
-2025-02-28 20:34:14,784 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-rust-foundation
-2025-02-28 20:34:15,913 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gprmax
-2025-02-28 20:34:17,169 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/accord-project
-2025-02-28 20:34:18,414 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/tardis-rt-collaboration
-2025-02-28 20:34:19,553 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/ceph
-2025-02-28 20:34:20,674 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/kubeflow
-2025-02-28 20:34:21,812 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/kubeflow: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:34:21,844 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/libssh
-2025-02-28 20:34:23,115 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/kde-community
-2025-02-28 20:34:24,260 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/mbdyn
-2025-02-28 20:34:25,366 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/api-dash
-2025-02-28 20:34:26,519 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/grame
-2025-02-28 20:34:27,669 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/dbpedia
-2025-02-28 20:34:28,814 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/rtems-project
-2025-02-28 20:34:30,182 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/fossology
-2025-02-28 20:34:31,468 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/fossology: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:34:31,502 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/lablua
-2025-02-28 20:34:32,635 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/owasp-foundation
-2025-02-28 20:34:33,775 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/owasp-foundation: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:34:33,804 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/json-schema
-2025-02-28 20:34:34,917 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-healthcare-network
-2025-02-28 20:34:36,086 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/typelevel
-2025-02-28 20:34:37,375 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-science-labs
-2025-02-28 20:34:38,528 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/internet-health-report
-2025-02-28 20:34:39,749 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/drupal-association
-2025-02-28 20:34:40,941 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/dart
-2025-02-28 20:34:42,087 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/osgeo-open-source-geospatial-foundation
-2025-02-28 20:34:43,270 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/sugar-labs
-2025-02-28 20:34:44,401 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/stichting-su2
-2025-02-28 20:34:45,535 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openafs
-2025-02-28 20:34:46,654 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/videolan
-2025-02-28 20:34:47,863 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/kiwix
-2025-02-28 20:34:48,990 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/ardupilot
-2025-02-28 20:34:50,164 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/debian
-2025-02-28 20:34:51,377 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/mit-app-inventor
-2025-02-28 20:34:52,640 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/invesalius
-2025-02-28 20:34:53,819 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openwisp
-2025-02-28 20:34:54,988 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openelis-global
-2025-02-28 20:34:56,203 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/internet-archive
-2025-02-28 20:34:57,809 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/internet-archive: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:34:57,838 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-food-facts
-2025-02-28 20:34:58,956 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/fossasia-bg
-2025-02-28 20:35:00,150 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/cern-hsf
-2025-02-28 20:35:01,354 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/oppia-foundation
-2025-02-28 20:35:02,492 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/software-and-computational-systems-lab-at-lmu-munich
-2025-02-28 20:35:03,610 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/stdlib
-2025-02-28 20:35:04,787 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/uramaki-lab
-2025-02-28 20:35:06,102 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/asyncapi
-2025-02-28 20:35:07,198 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/neuroinformatics-unit
-2025-02-28 20:35:08,369 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/kotlin-foundation
-2025-02-28 20:35:09,588 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-climate-fix
-2025-02-28 20:35:10,742 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/sagemath
-2025-02-28 20:35:11,866 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/brl-cad
-2025-02-28 20:35:13,023 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/metabrainz-foundation-inc
-2025-02-28 20:35:14,166 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/unikraft
-2025-02-28 20:35:15,305 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gnu-octave
-2025-02-28 20:35:16,436 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/chromium-lj
-2025-02-28 20:35:17,566 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/numfocus
-2025-02-28 20:35:18,704 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/electron
-2025-02-28 20:35:19,859 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/cncf
-2025-02-28 20:35:20,999 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/ioos
-2025-02-28 20:35:22,221 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/openmrs
-2025-02-28 20:35:23,344 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/dora-rs-tb
-2025-02-28 20:35:24,483 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/aossie
-2025-02-28 20:35:25,647 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/kro-kube-resource-orchestrator
-2025-02-28 20:35:26,798 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/ankidroid
-2025-02-28 20:35:27,954 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/cgal-project
-2025-02-28 20:35:29,298 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/open-technologies-alliance-gfoss
-2025-02-28 20:35:30,472 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/ffmpeg
-2025-02-28 20:35:31,670 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/opencv
-2025-02-28 20:35:32,847 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/gnss-sdr
-2025-02-28 20:35:33,986 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/plone-foundation
-2025-02-28 20:35:35,092 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/plone-foundation: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:35:35,121 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/d-language-foundation
-2025-02-28 20:35:36,306 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/rocketchat
-2025-02-28 20:35:37,504 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/keploy
-2025-02-28 20:35:38,688 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/unicode-inc
-2025-02-28 20:35:40,047 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-palisadoes-foundation
-2025-02-28 20:35:41,169 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/kornia
-2025-02-28 20:35:42,836 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/stear-group
-2025-02-28 20:35:44,564 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/sw360
-2025-02-28 20:35:45,738 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/meshery
-2025-02-28 20:35:47,053 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/qemu
-2025-02-28 20:35:48,266 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/humanai
-2025-02-28 20:35:49,483 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/humanai: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:35:49,513 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/beagleboardorg
-2025-02-28 20:35:50,678 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/graphite
-2025-02-28 20:35:51,902 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/the-julia-language
-2025-02-28 20:35:53,070 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/zulip
-2025-02-28 20:35:54,332 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/freifunk
-2025-02-28 20:35:55,541 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/jax-and-keras
-2025-02-28 20:35:56,638 - WARNING - Contributor Guidance not found on https://summerofcode.withgoogle.com/programs/2025/organizations/jax-and-keras: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'title') and contains(text(), 'Contributor Guidance')]/following-sibling::div[contains(@class, 'link-wrapper')]//a"}
-  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000102cf42d4 cxxbridge1$str$ptr + 2739836
-1   chromedriver                        0x0000000102cec934 cxxbridge1$str$ptr + 2708700
-2   chromedriver                        0x000000010284df90 cxxbridge1$string$len + 93360
-3   chromedriver                        0x0000000102894de4 cxxbridge1$string$len + 383748
-4   chromedriver                        0x00000001028d5e80 cxxbridge1$string$len + 650144
-5   chromedriver                        0x0000000102889060 cxxbridge1$string$len + 335232
-6   chromedriver                        0x0000000102cbcc38 cxxbridge1$str$ptr + 2512864
-7   chromedriver                        0x0000000102cbff58 cxxbridge1$str$ptr + 2525952
-8   chromedriver                        0x0000000102ca2578 cxxbridge1$str$ptr + 2404640
-9   chromedriver                        0x0000000102cc0818 cxxbridge1$str$ptr + 2528192
-10  chromedriver                        0x0000000102c92f2c cxxbridge1$str$ptr + 2341588
-11  chromedriver                        0x0000000102cdca60 cxxbridge1$str$ptr + 2643464
-12  chromedriver                        0x0000000102cdcbe8 cxxbridge1$str$ptr + 2643856
-13  chromedriver                        0x0000000102cec5a8 cxxbridge1$str$ptr + 2707792
-14  libsystem_pthread.dylib             0x0000000192bd72e4 _pthread_start + 136
-15  libsystem_pthread.dylib             0x0000000192bd20fc thread_start + 8
-
-2025-02-28 20:35:56,665 - INFO - Scraping organization: https://summerofcode.withgoogle.com/programs/2025/organizations/society-for-arts-and-technology-sat
-2025-02-28 20:35:57,898 - INFO - Data saved to scraped_data.csv
-2025-02-28 20:35:58,160 - INFO - Browser closed.
-2025-02-28 20:35:58,160 - INFO - Scraping complete!
+2025-03-01 00:13:17,084 - INFO - Chrome driver initialized successfully.
+2025-03-01 00:13:21,286 - INFO - Navigated to https://summerofcode.withgoogle.com/programs/2022/projects
+2025-03-01 00:13:35,284 - INFO - Project links loaded successfully.
+2025-03-01 00:13:35,927 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:13:39,459 - INFO - Project links loaded successfully.
+2025-03-01 00:13:40,104 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:13:42,469 - INFO - Project links loaded successfully.
+2025-03-01 00:13:43,096 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:13:45,731 - INFO - Project links loaded successfully.
+2025-03-01 00:13:46,330 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:13:48,860 - INFO - Project links loaded successfully.
+2025-03-01 00:13:49,452 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:13:52,373 - INFO - Project links loaded successfully.
+2025-03-01 00:13:52,985 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:13:55,212 - INFO - Project links loaded successfully.
+2025-03-01 00:13:55,848 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:13:58,754 - INFO - Project links loaded successfully.
+2025-03-01 00:13:59,374 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:14:02,127 - INFO - Project links loaded successfully.
+2025-03-01 00:14:02,739 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:14:05,057 - INFO - Project links loaded successfully.
+2025-03-01 00:14:05,673 - INFO - Found 100 project URLs on current page.
+2025-03-01 00:14:09,027 - INFO - Project links loaded successfully.
+2025-03-01 00:14:09,355 - INFO - Found 54 project URLs on current page.
+2025-03-01 00:14:12,841 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2cIQ4Zvg
+2025-03-01 00:14:15,452 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/G39Ptmap
+2025-03-01 00:14:17,641 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Xtj2bzL7
+2025-03-01 00:14:19,799 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WvIpqgrR
+2025-03-01 00:14:22,173 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eyE28FAK
+2025-03-01 00:14:24,471 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GRLPhiag
+2025-03-01 00:14:26,752 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LMQx2tHw
+2025-03-01 00:14:28,914 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cFiVMFmu
+2025-03-01 00:14:31,038 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/f4HjtVlV
+2025-03-01 00:14:33,262 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/f5Oq08iH
+2025-03-01 00:14:35,402 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sQlM6bPH
+2025-03-01 00:14:37,535 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/upN80V5b
+2025-03-01 00:14:39,776 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3VtQj1eI
+2025-03-01 00:14:41,945 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TGkXiTz6
+2025-03-01 00:14:44,216 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8tdgm8kB
+2025-03-01 00:14:46,765 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VQiBk1ub
+2025-03-01 00:14:48,957 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QzBcIxrS
+2025-03-01 00:14:51,675 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2zKr5UPe
+2025-03-01 00:14:53,840 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/R2NUHUJP
+2025-03-01 00:14:56,026 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YRfj0fIn
+2025-03-01 00:14:58,191 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MNFtN4so
+2025-03-01 00:15:00,352 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2OPKNrzB
+2025-03-01 00:15:02,521 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Xj0jylu3
+2025-03-01 00:15:04,674 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7vJUICs0
+2025-03-01 00:15:06,838 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/p8RPezSR
+2025-03-01 00:15:09,016 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8jppNXtC
+2025-03-01 00:15:11,213 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uy6F1j8l
+2025-03-01 00:15:13,437 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/OewpiPMm
+2025-03-01 00:15:16,154 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/k9PsrJcs
+2025-03-01 00:15:18,340 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UPtA6qdf
+2025-03-01 00:15:20,494 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qL0QbWdQ
+2025-03-01 00:15:22,679 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/e4CNvEMk
+2025-03-01 00:15:24,857 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nTkppSfR
+2025-03-01 00:15:27,578 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/caFqYFAc
+2025-03-01 00:15:29,760 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hkRbtWVD
+2025-03-01 00:15:31,988 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2JSHM54Q
+2025-03-01 00:15:34,216 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/DRo78WpM
+2025-03-01 00:15:36,417 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1gHChanW
+2025-03-01 00:15:38,602 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xjCmlvMW
+2025-03-01 00:15:43,841 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pimyoHRY
+2025-03-01 00:15:46,887 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/A1oPEjHH
+2025-03-01 00:15:49,901 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/txBeI4c8
+2025-03-01 00:15:52,958 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/A32sJQw9
+2025-03-01 00:15:55,152 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qMZj4qAr
+2025-03-01 00:15:59,180 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/g0gWTw4h
+2025-03-01 00:16:01,357 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jB1WY7qP
+2025-03-01 00:16:03,561 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/z1hZ31sv
+2025-03-01 00:16:05,744 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1cNhg9b3
+2025-03-01 00:16:07,926 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bcrkfuzU
+2025-03-01 00:16:10,144 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Vvp3XmeB
+2025-03-01 00:16:12,338 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8f4qeUPF
+2025-03-01 00:16:14,518 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3c3ZgCs1
+2025-03-01 00:16:16,906 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/6Wk7Byun
+2025-03-01 00:16:19,065 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HXCZO14B
+2025-03-01 00:16:21,266 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XIrc7NJ5
+2025-03-01 00:16:23,563 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bSK9C7Gp
+2025-03-01 00:16:25,753 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jNVPDsp1
+2025-03-01 00:16:27,943 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sUI7IRHv
+2025-03-01 00:16:30,111 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cgmh6Hr7
+2025-03-01 00:16:32,250 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/svcYaFO4
+2025-03-01 00:16:34,501 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QxzXYOMh
+2025-03-01 00:16:36,698 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4hNhIOuB
+2025-03-01 00:16:38,913 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Szuxr74f
+2025-03-01 00:16:41,064 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/KjzBxpTc
+2025-03-01 00:16:43,246 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HPZ1bacs
+2025-03-01 00:16:45,403 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/KEqnvisL
+2025-03-01 00:16:48,090 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hWNu77nz
+2025-03-01 00:16:50,389 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RiwyAVic
+2025-03-01 00:16:52,585 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sSPlO4FN
+2025-03-01 00:16:54,769 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yYQQ3SPi
+2025-03-01 00:16:57,061 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bYOMxAIc
+2025-03-01 00:16:59,417 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wzvM80S0
+2025-03-01 00:17:01,617 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/v89lHomV
+2025-03-01 00:17:03,785 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CtgpJGaV
+2025-03-01 00:17:06,009 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bAoybrn8
+2025-03-01 00:17:08,222 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/IlhnLJqF
+2025-03-01 00:17:10,488 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7uMIihJR
+2025-03-01 00:17:12,675 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8nLt19Gm
+2025-03-01 00:17:14,887 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/upC5FdFC
+2025-03-01 00:17:17,302 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XIkPphMz
+2025-03-01 00:17:19,507 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EfCc3ywr
+2025-03-01 00:17:21,725 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hqRt0eFZ
+2025-03-01 00:17:23,793 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vo7q5kbY
+2025-03-01 00:17:25,969 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/M1uhkggE
+2025-03-01 00:17:28,151 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0B0YhUb3
+2025-03-01 00:17:30,322 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VlxzYOWy
+2025-03-01 00:17:32,525 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xoVmK3Qv
+2025-03-01 00:17:34,677 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MPwtKjQ1
+2025-03-01 00:17:37,007 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/iCAlQpNK
+2025-03-01 00:17:39,276 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jp4vG7tW
+2025-03-01 00:17:41,475 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fKRyHw43
+2025-03-01 00:17:43,626 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/iaPAidMZ
+2025-03-01 00:17:45,800 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BoaDmn9n
+2025-03-01 00:17:47,998 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Z4eSfxn5
+2025-03-01 00:17:50,453 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lTuJeWjs
+2025-03-01 00:17:52,629 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2UDvDlA2
+2025-03-01 00:17:54,780 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HIqpMFb3
+2025-03-01 00:17:57,258 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tFAJcpfh
+2025-03-01 00:18:00,621 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CdegMgzn
+2025-03-01 00:18:03,012 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1uaAL6Y7
+2025-03-01 00:18:05,222 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fmDSiX3x
+2025-03-01 00:18:07,440 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XubAsh1T
+2025-03-01 00:18:09,670 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LsZRqWCY
+2025-03-01 00:18:11,963 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fjUDLOrk
+2025-03-01 00:18:14,224 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/njZwvRi0
+2025-03-01 00:18:16,491 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/oCtBUJHr
+2025-03-01 00:18:18,782 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Rqw0tLZi
+2025-03-01 00:18:21,056 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8EksU68Y
+2025-03-01 00:18:23,259 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3gJf6UQy
+2025-03-01 00:18:25,476 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/u0WNs8PY
+2025-03-01 00:18:27,654 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZtjNCalQ
+2025-03-01 00:18:29,839 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YKTssMvn
+2025-03-01 00:18:31,995 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/n2RXlLSG
+2025-03-01 00:18:34,188 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dTPa1VpE
+2025-03-01 00:18:36,362 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SJdtcFRD
+2025-03-01 00:18:38,583 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/peDPYCpm
+2025-03-01 00:18:40,742 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4nXkenu9
+2025-03-01 00:18:42,922 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dtqU95hd
+2025-03-01 00:18:45,106 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/DqAFewgr
+2025-03-01 00:18:47,289 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/y9hRNsi4
+2025-03-01 00:18:50,045 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RD0zDKK1
+2025-03-01 00:18:52,209 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Ue4ftqH2
+2025-03-01 00:18:54,390 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eKoTbW4r
+2025-03-01 00:18:56,532 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cf0rUG3S
+2025-03-01 00:18:58,749 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Q8cce5AG
+2025-03-01 00:19:00,957 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/iFKJMj0t
+2025-03-01 00:19:03,184 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QDwVy7Wb
+2025-03-01 00:19:05,492 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/oPDlDO6e
+2025-03-01 00:19:07,681 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XDtc6Ero
+2025-03-01 00:19:09,857 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pGBagjdk
+2025-03-01 00:19:12,062 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/OctjqIBP
+2025-03-01 00:19:14,243 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/I80cR26b
+2025-03-01 00:19:16,437 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GAEvDkrP
+2025-03-01 00:19:18,593 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wiAa3vbH
+2025-03-01 00:19:20,758 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/C7QoeYiS
+2025-03-01 00:19:22,959 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zeRQC6zF
+2025-03-01 00:19:25,168 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XtYvTaI8
+2025-03-01 00:19:27,360 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jAYeaR0R
+2025-03-01 00:19:29,780 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TKDPK1ZV
+2025-03-01 00:19:31,982 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xn67OVPE
+2025-03-01 00:19:34,405 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CynkIQvi
+2025-03-01 00:19:36,706 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Ln5K8yFb
+2025-03-01 00:19:38,947 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QfpbdCd7
+2025-03-01 00:19:41,211 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ShGlbTKv
+2025-03-01 00:19:43,437 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kXWmZ2wy
+2025-03-01 00:19:45,650 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0VT60ELS
+2025-03-01 00:19:48,384 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MQ5ZuS3x
+2025-03-01 00:19:50,737 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/h0J5Izcu
+2025-03-01 00:19:53,040 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uTqnXR4t
+2025-03-01 00:19:55,238 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/oiE2yRSV
+2025-03-01 00:19:57,446 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kys3qcVH
+2025-03-01 00:19:59,685 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pLtlKPkr
+2025-03-01 00:20:02,023 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hMUkWQlA
+2025-03-01 00:20:04,219 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jY2VwYCS
+2025-03-01 00:20:06,472 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UQxeeaS4
+2025-03-01 00:20:08,669 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bCmHAPIL
+2025-03-01 00:20:10,931 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wP4j8I9E
+2025-03-01 00:20:13,178 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/G31xdfg1
+2025-03-01 00:20:15,406 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VI1FUJJa
+2025-03-01 00:20:17,641 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/r9OknbNi
+2025-03-01 00:20:19,838 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/M2LAPzxL
+2025-03-01 00:20:22,094 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/j8mr9W2C
+2025-03-01 00:20:24,237 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fPK0E7Ar
+2025-03-01 00:20:26,465 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/6p475fQ1
+2025-03-01 00:20:28,800 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/B1Y0nTh2
+2025-03-01 00:20:30,953 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jVjoInw5
+2025-03-01 00:20:33,156 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ObpzfgGa
+2025-03-01 00:20:35,419 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VWmyQb45
+2025-03-01 00:20:38,306 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/aMwpR5uH
+2025-03-01 00:20:40,607 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FpUMWZPS
+2025-03-01 00:20:42,808 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Q514oODw
+2025-03-01 00:20:44,992 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PwQlcngc
+2025-03-01 00:20:47,179 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qEOm5SRi
+2025-03-01 00:20:49,384 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LcbNVGrj
+2025-03-01 00:20:51,587 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yKOpuIZh
+2025-03-01 00:20:53,729 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SvWwlwgO
+2025-03-01 00:20:55,922 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/I4PxrljP
+2025-03-01 00:20:58,106 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/b5DkDRJR
+2025-03-01 00:21:00,772 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bxqSRN3n
+2025-03-01 00:21:03,677 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mr5vN7K5
+2025-03-01 00:21:05,816 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XHoGWs9K
+2025-03-01 00:21:08,018 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FIsoXwPH
+2025-03-01 00:21:10,188 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wbLbZmGk
+2025-03-01 00:21:12,449 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EnnrULpN
+2025-03-01 00:21:14,643 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/i7rO5R2m
+2025-03-01 00:21:16,874 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LAzoIUP3
+2025-03-01 00:21:19,047 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3V01T7uD
+2025-03-01 00:21:21,269 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/haiLMxnP
+2025-03-01 00:21:23,487 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/l7ZFKMEI
+2025-03-01 00:21:25,813 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Zd3Mr5G5
+2025-03-01 00:21:28,107 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Uj0slvvh
+2025-03-01 00:21:30,315 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/w8Zaqbr7
+2025-03-01 00:21:32,512 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3aCUzQEw
+2025-03-01 00:21:34,815 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XpcMpdul
+2025-03-01 00:21:37,107 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nDpheIlA
+2025-03-01 00:21:39,401 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/C9pmMeIt
+2025-03-01 00:21:41,653 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/D9hiJRSM
+2025-03-01 00:21:43,831 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3BzJPzTk
+2025-03-01 00:21:46,046 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/esA98HIB
+2025-03-01 00:21:48,252 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/J4J1ITUL
+2025-03-01 00:21:50,497 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VHLSsFnI
+2025-03-01 00:21:52,773 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LDY5asp0
+2025-03-01 00:21:55,009 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dK74KMqd
+2025-03-01 00:21:57,372 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5XM0ONH7
+2025-03-01 00:21:59,576 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rxjfYo3p
+2025-03-01 00:22:01,845 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HogSGyea
+2025-03-01 00:22:04,072 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TzT4v7Gr
+2025-03-01 00:22:06,325 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8fzvvscF
+2025-03-01 00:22:08,527 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CDvCA4a1
+2025-03-01 00:22:11,254 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/48Bxrljx
+2025-03-01 00:22:13,472 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pBbCdRWu
+2025-03-01 00:22:15,655 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZLkTUrMt
+2025-03-01 00:22:18,949 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QU1Im7IN
+2025-03-01 00:22:21,637 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Acz1NBSg
+2025-03-01 00:22:23,863 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uA64Hl2A
+2025-03-01 00:22:26,147 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vZsith38
+2025-03-01 00:22:28,472 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/IwOJHkgq
+2025-03-01 00:22:30,748 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FKBuRb8U
+2025-03-01 00:22:33,120 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hmRrB6GQ
+2025-03-01 00:22:35,358 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FM5IjD5N
+2025-03-01 00:22:37,640 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gNdNxmFb
+2025-03-01 00:22:40,025 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rk3upp2L
+2025-03-01 00:22:42,246 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/x9DLkUcC
+2025-03-01 00:22:44,498 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JdYrRc8K
+2025-03-01 00:22:46,809 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JCf3vuRf
+2025-03-01 00:22:49,106 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CgbwfHhw
+2025-03-01 00:22:51,395 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Q25GbRRz
+2025-03-01 00:22:53,675 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0DADMrfK
+2025-03-01 00:22:55,877 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/d2yDsuz1
+2025-03-01 00:22:58,146 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mpusZVc2
+2025-03-01 00:23:00,404 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/z9yD2hv3
+2025-03-01 00:23:02,727 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/74xa0UGO
+2025-03-01 00:23:05,050 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/de4zCj2s
+2025-03-01 00:23:07,275 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZVraist1
+2025-03-01 00:23:09,546 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XJ5kKZQ1
+2025-03-01 00:23:11,832 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lKwZ8APE
+2025-03-01 00:23:14,039 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fIekpwFn
+2025-03-01 00:23:16,239 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jJ8o0Wpc
+2025-03-01 00:23:18,465 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/quUZRkud
+2025-03-01 00:23:21,634 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qIs6T4Gt
+2025-03-01 00:23:23,812 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/O9a4EZCE
+2025-03-01 00:23:25,998 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XmW4dCIr
+2025-03-01 00:23:28,250 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/taspuPOM
+2025-03-01 00:23:30,477 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ByeaY6aK
+2025-03-01 00:23:32,706 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MOG4RCQG
+2025-03-01 00:23:34,962 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uYEXLgLF
+2025-03-01 00:23:37,161 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/aNyDhKYR
+2025-03-01 00:23:39,487 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/t8r1UJgj
+2025-03-01 00:23:41,681 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fiDCLAgJ
+2025-03-01 00:23:43,869 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/g1kTwy03
+2025-03-01 00:23:46,067 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2UtjSuDg
+2025-03-01 00:23:48,203 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/flrTLQub
+2025-03-01 00:23:50,376 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BBXVHG68
+2025-03-01 00:23:52,545 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vTyb8f1v
+2025-03-01 00:23:54,823 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1IZGKjn2
+2025-03-01 00:23:57,341 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/OfUnanaC
+2025-03-01 00:23:59,517 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/O44ApUtz
+2025-03-01 00:24:01,693 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xXN12jAU
+2025-03-01 00:24:03,925 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BrXiUNA2
+2025-03-01 00:24:06,082 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/w10mCFle
+2025-03-01 00:24:08,296 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CLdtJiEB
+2025-03-01 00:24:10,538 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jlm7VZtC
+2025-03-01 00:24:12,787 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SeyZbhc4
+2025-03-01 00:24:14,993 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fOfEvdYx
+2025-03-01 00:24:17,132 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/iWuQqugy
+2025-03-01 00:24:19,558 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZlIvAjlo
+2025-03-01 00:24:21,839 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hoXKGeec
+2025-03-01 00:24:24,047 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8aeeJZr6
+2025-03-01 00:24:26,231 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EAI1HT9v
+2025-03-01 00:24:28,470 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XLPJsm8o
+2025-03-01 00:24:30,699 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YahUUBlV
+2025-03-01 00:24:32,900 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/A8BrmPsF
+2025-03-01 00:24:35,136 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GW3ONedb
+2025-03-01 00:24:37,337 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GWmEoaOL
+2025-03-01 00:24:39,506 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/j81ZcnAr
+2025-03-01 00:24:41,858 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/iHkY96U9
+2025-03-01 00:24:44,051 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/49wvDXuF
+2025-03-01 00:24:46,262 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QVeeGMY9
+2025-03-01 00:24:48,529 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vQOjUNb2
+2025-03-01 00:24:50,769 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WWgHBTde
+2025-03-01 00:24:53,026 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dsXyCnNA
+2025-03-01 00:24:55,283 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yQk3Qapd
+2025-03-01 00:24:57,516 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2ngxdv2Q
+2025-03-01 00:24:59,779 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Qr45UY5M
+2025-03-01 00:25:01,970 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/iqjsziNS
+2025-03-01 00:25:04,250 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EDrBHxfN
+2025-03-01 00:25:06,526 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9x4krJ3S
+2025-03-01 00:25:08,738 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GeYAxA7Q
+2025-03-01 00:25:10,980 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0qIdlcTq
+2025-03-01 00:25:13,224 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WhAudlF6
+2025-03-01 00:25:15,983 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4tE547Oz
+2025-03-01 00:25:18,257 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vSMGsSuH
+2025-03-01 00:25:20,525 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3VOBu668
+2025-03-01 00:25:22,757 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hZgV3TVm
+2025-03-01 00:25:25,002 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pXQXmxEz
+2025-03-01 00:25:27,221 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dco9wAqD
+2025-03-01 00:25:29,483 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1GYAahvL
+2025-03-01 00:25:31,690 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wWJCM4HI
+2025-03-01 00:25:33,928 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cMCC6Tpw
+2025-03-01 00:25:36,138 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SvHk1WgO
+2025-03-01 00:25:38,390 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cLq6dMbf
+2025-03-01 00:25:40,731 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2wuW8zf8
+2025-03-01 00:25:42,894 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/m6ZxRreD
+2025-03-01 00:25:45,178 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fm3YZPRg
+2025-03-01 00:25:47,417 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cAyIN9Bi
+2025-03-01 00:25:49,606 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ajDT1hjj
+2025-03-01 00:25:51,830 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ky4Dpka9
+2025-03-01 00:25:54,075 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/t87xbcg2
+2025-03-01 00:25:56,337 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TVxnEP2B
+2025-03-01 00:25:58,585 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/a01Kzs28
+2025-03-01 00:26:00,843 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yjp04qzr
+2025-03-01 00:26:03,132 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5nq3GuxI
+2025-03-01 00:26:05,298 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QADLl2VF
+2025-03-01 00:26:07,502 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hv8pd0Rg
+2025-03-01 00:26:09,673 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jcU3VA0S
+2025-03-01 00:26:11,890 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/edb5T3iZ
+2025-03-01 00:26:14,138 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rP8hthBg
+2025-03-01 00:26:16,410 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gt4uN8hd
+2025-03-01 00:26:18,690 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LFv0zcZR
+2025-03-01 00:26:20,875 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2a55KowT
+2025-03-01 00:26:23,089 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lfS6IRrZ
+2025-03-01 00:26:25,808 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bT5KhDg3
+2025-03-01 00:26:28,030 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/NIcNOOAQ
+2025-03-01 00:26:30,250 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cEgvzcpy
+2025-03-01 00:26:32,473 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VxX8WjYU
+2025-03-01 00:26:34,683 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/a47CQL2Z
+2025-03-01 00:26:36,940 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WOkMdu9V
+2025-03-01 00:26:39,112 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JlDWvmqL
+2025-03-01 00:26:41,355 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/NQhh53gZ
+2025-03-01 00:26:43,538 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/E9I1qBEq
+2025-03-01 00:26:45,802 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/aCExbUu9
+2025-03-01 00:26:48,128 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XLn57TC4
+2025-03-01 00:26:50,346 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/aXtefGUz
+2025-03-01 00:26:52,607 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mR4UtEJJ
+2025-03-01 00:26:54,831 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dBh2T0yh
+2025-03-01 00:26:57,179 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ae3gaL1T
+2025-03-01 00:26:59,470 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fkDCJ5Ec
+2025-03-01 00:27:01,827 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0gbpQgKv
+2025-03-01 00:27:04,025 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Ft7KP8Dj
+2025-03-01 00:27:06,298 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZvOXyBHH
+2025-03-01 00:27:08,538 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hclVxBUX
+2025-03-01 00:27:10,781 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cByAw9KE
+2025-03-01 00:27:12,988 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8yvXt3Uw
+2025-03-01 00:27:15,250 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YWv8Vbw1
+2025-03-01 00:27:17,476 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GSUS0kxC
+2025-03-01 00:27:19,718 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UlSbQdDT
+2025-03-01 00:27:21,973 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/49Vg7Sho
+2025-03-01 00:27:24,130 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Cz3Alcka
+2025-03-01 00:27:26,316 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WxAsgQUG
+2025-03-01 00:27:28,453 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wMvv2tnI
+2025-03-01 00:27:30,619 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/970vW53Z
+2025-03-01 00:27:32,792 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/y2the6HJ
+2025-03-01 00:27:34,997 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/oyTOcQDB
+2025-03-01 00:27:37,206 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/968ibP0I
+2025-03-01 00:27:39,370 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0j8x9KMw
+2025-03-01 00:27:41,749 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cDF2TzVm
+2025-03-01 00:27:43,935 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/km7C8pfu
+2025-03-01 00:27:46,142 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Vv0YDXcR
+2025-03-01 00:27:48,475 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/IihNBSwo
+2025-03-01 00:27:50,660 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/luKbKGoR
+2025-03-01 00:27:52,885 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZypcqQVM
+2025-03-01 00:27:55,175 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Aw6dks92
+2025-03-01 00:27:57,391 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vb1oMHTh
+2025-03-01 00:27:59,634 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gOi77aJQ
+2025-03-01 00:28:01,874 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/V3WbD854
+2025-03-01 00:28:04,173 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/itzYC4nh
+2025-03-01 00:28:06,360 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ofbauTrx
+2025-03-01 00:28:08,614 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JyHrWiAk
+2025-03-01 00:28:10,790 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/L28fukIz
+2025-03-01 00:28:13,074 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/88DMMT0I
+2025-03-01 00:28:15,252 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RCS4HdVg
+2025-03-01 00:28:17,572 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/noGB71vE
+2025-03-01 00:28:19,746 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wxQUHgSd
+2025-03-01 00:28:22,051 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3P25m4BT
+2025-03-01 00:28:24,338 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hTlBC1N6
+2025-03-01 00:28:27,153 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LKL5raf2
+2025-03-01 00:28:29,390 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mRaKJNOZ
+2025-03-01 00:28:31,734 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/KwnENs7p
+2025-03-01 00:28:33,949 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7nMw2hTq
+2025-03-01 00:28:36,242 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rG7XFX6n
+2025-03-01 00:28:38,499 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Pizkj3Lg
+2025-03-01 00:28:40,723 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/X3Sat21N
+2025-03-01 00:28:42,967 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rqwWjZy3
+2025-03-01 00:28:45,263 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yn3uYVWW
+2025-03-01 00:28:47,502 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/om2xBfpf
+2025-03-01 00:28:49,769 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ye846qnn
+2025-03-01 00:28:51,958 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eV1CKYPp
+2025-03-01 00:28:54,206 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/W8ZxacEA
+2025-03-01 00:28:56,407 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4PnSweAf
+2025-03-01 00:28:58,662 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0h06IrAA
+2025-03-01 00:29:00,918 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/T1krZ71L
+2025-03-01 00:29:03,175 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QQ8d1Psl
+2025-03-01 00:29:05,376 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2uxuBPK3
+2025-03-01 00:29:07,658 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/biRI2YLT
+2025-03-01 00:29:09,822 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FE4O7MZt
+2025-03-01 00:29:12,100 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/i2qBI9g1
+2025-03-01 00:29:14,399 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/h4k8RWYu
+2025-03-01 00:29:16,721 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kmq4Tz50
+2025-03-01 00:29:19,054 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/y8k0d5Ew
+2025-03-01 00:29:21,251 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/li2dNGB6
+2025-03-01 00:29:23,493 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pgdhSG3m
+2025-03-01 00:29:25,730 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/81fNz4sl
+2025-03-01 00:29:28,571 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rqCSy7fn
+2025-03-01 00:29:30,781 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HO2nuWOq
+2025-03-01 00:29:33,038 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/6AoBcunH
+2025-03-01 00:29:35,303 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/U4qbFQj7
+2025-03-01 00:29:37,536 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EpGIjUGU
+2025-03-01 00:29:39,803 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HZt97ZtA
+2025-03-01 00:29:42,040 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/y2IVgVAJ
+2025-03-01 00:29:44,258 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/6fWp2zf6
+2025-03-01 00:29:46,449 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5rp25PJB
+2025-03-01 00:29:48,735 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dymLIi7V
+2025-03-01 00:29:50,962 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0xICJhw8
+2025-03-01 00:29:53,238 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/G5Jor1se
+2025-03-01 00:29:55,500 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FeUGBjpx
+2025-03-01 00:29:57,777 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/A6NVMn4x
+2025-03-01 00:29:59,982 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8xPSxHSE
+2025-03-01 00:30:02,348 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EGSzEX1H
+2025-03-01 00:30:04,529 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ifDd82zk
+2025-03-01 00:30:07,813 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/amkb9ZmF
+2025-03-01 00:30:10,016 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WQzKOHGd
+2025-03-01 00:30:12,262 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CVodKm18
+2025-03-01 00:30:14,541 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CfP6hTdM
+2025-03-01 00:30:16,747 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BK7TI3rX
+2025-03-01 00:30:18,999 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Yxzsywh0
+2025-03-01 00:30:21,574 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZBLhVlQu
+2025-03-01 00:30:23,854 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8QMnLtav
+2025-03-01 00:30:26,130 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3pT9TiqC
+2025-03-01 00:30:28,469 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VZt1B6Wn
+2025-03-01 00:30:30,707 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zI13Fc3W
+2025-03-01 00:30:32,920 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2DbiYPlY
+2025-03-01 00:30:35,219 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UTT0MqfN
+2025-03-01 00:30:38,177 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xOG14j14
+2025-03-01 00:30:40,376 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kNdqzYp5
+2025-03-01 00:30:43,153 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/myw7nyZl
+2025-03-01 00:30:45,333 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LZ5Te7cU
+2025-03-01 00:30:47,530 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wTY9HI6P
+2025-03-01 00:30:49,696 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4xWSBRwy
+2025-03-01 00:30:51,845 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/6jRNut5x
+2025-03-01 00:30:54,023 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ggLRaaH3
+2025-03-01 00:30:56,206 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/U4F39XEC
+2025-03-01 00:30:58,373 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3mJdvXub
+2025-03-01 00:31:00,556 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3tTjOXK4
+2025-03-01 00:31:02,704 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5UW9BtMn
+2025-03-01 00:31:04,912 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Hz7ferE1
+2025-03-01 00:31:07,064 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZU9xd9AL
+2025-03-01 00:31:09,237 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1RRyDYVG
+2025-03-01 00:31:11,394 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/e4hhNVvP
+2025-03-01 00:31:13,608 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cGBXPuSH
+2025-03-01 00:31:15,752 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/h8XjLIlI
+2025-03-01 00:31:17,923 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/erQ53gJD
+2025-03-01 00:31:20,098 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/F73MdsR5
+2025-03-01 00:31:22,271 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/J8JDnuoM
+2025-03-01 00:31:24,492 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uaPLfT32
+2025-03-01 00:31:26,702 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rGKelltB
+2025-03-01 00:31:28,866 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/y4Mk5bM9
+2025-03-01 00:31:31,088 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LcJL17UZ
+2025-03-01 00:31:33,428 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/et60aPvR
+2025-03-01 00:31:35,604 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/q83UnVQM
+2025-03-01 00:31:37,764 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VCly6JP2
+2025-03-01 00:31:39,913 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Nurr5g8f
+2025-03-01 00:31:42,097 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GxWfywhb
+2025-03-01 00:31:44,477 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fPgGP9W7
+2025-03-01 00:31:46,746 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FlX3EEfu
+2025-03-01 00:31:48,934 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0vJmJgz4
+2025-03-01 00:31:51,346 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/utVHjMyi
+2025-03-01 00:31:53,512 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0ZB6Ifsx
+2025-03-01 00:31:55,655 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ILpRcWKa
+2025-03-01 00:31:57,802 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zwPg9Yuz
+2025-03-01 00:31:59,947 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AtU8TBJz
+2025-03-01 00:32:02,171 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9CQnV7Fs
+2025-03-01 00:32:04,365 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/L557jFPL
+2025-03-01 00:32:07,294 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TowRJHuL
+2025-03-01 00:32:09,559 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LO9TKtL3
+2025-03-01 00:32:12,025 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/diVUHhG6
+2025-03-01 00:32:14,193 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Ci8WKoJ7
+2025-03-01 00:32:16,950 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9njzCFJk
+2025-03-01 00:32:19,202 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SEravaYf
+2025-03-01 00:32:22,262 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/f7x3RQug
+2025-03-01 00:32:24,552 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/axdeCi5w
+2025-03-01 00:32:26,904 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8ICEBzfO
+2025-03-01 00:32:29,095 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/e2m1eokW
+2025-03-01 00:32:31,348 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nidhwgvC
+2025-03-01 00:32:33,585 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fx6AgHkQ
+2025-03-01 00:32:35,775 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XJwp022t
+2025-03-01 00:32:37,967 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QCfTIgri
+2025-03-01 00:32:40,225 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fsd4FPpL
+2025-03-01 00:32:42,399 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0OQH7BRI
+2025-03-01 00:32:44,566 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ve2i6Vc5
+2025-03-01 00:32:46,713 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GJVsyb6V
+2025-03-01 00:32:48,879 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UKcKOkcC
+2025-03-01 00:32:51,017 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/V1hY83XG
+2025-03-01 00:32:53,200 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/atWuie8j
+2025-03-01 00:32:55,417 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/o03BpJn1
+2025-03-01 00:32:57,562 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HKusZvP4
+2025-03-01 00:32:59,779 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ynUKk8wd
+2025-03-01 00:33:01,911 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jas90LA8
+2025-03-01 00:33:04,574 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZePmlfr6
+2025-03-01 00:33:06,751 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zjlx9dIj
+2025-03-01 00:33:08,905 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LfnKy1Oa
+2025-03-01 00:33:11,040 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gYJX2EEa
+2025-03-01 00:33:13,213 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9ThHROQ9
+2025-03-01 00:33:15,395 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ykkMkxcR
+2025-03-01 00:33:17,646 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JF7I75hH
+2025-03-01 00:33:19,916 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Nd2nB4BJ
+2025-03-01 00:33:22,088 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bhujsZfq
+2025-03-01 00:33:24,239 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HlYxwIwX
+2025-03-01 00:33:26,429 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FJcK05lP
+2025-03-01 00:33:28,562 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mR4u5su7
+2025-03-01 00:33:30,740 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/s5A7vpos
+2025-03-01 00:33:33,399 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RIwJKyYg
+2025-03-01 00:33:35,575 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tSEKPZBa
+2025-03-01 00:33:37,734 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EPuhVLxp
+2025-03-01 00:33:39,896 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BiE9CBjL
+2025-03-01 00:33:42,068 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/p0RV6N2f
+2025-03-01 00:33:44,285 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jOIuulhu
+2025-03-01 00:33:46,445 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mVuZp7l7
+2025-03-01 00:33:48,643 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/W5iole2x
+2025-03-01 00:33:50,807 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qLGnC87T
+2025-03-01 00:33:53,023 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cZz0y38t
+2025-03-01 00:33:55,208 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/REBhXTku
+2025-03-01 00:33:57,671 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tadWDHMj
+2025-03-01 00:33:59,833 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0Gben6SZ
+2025-03-01 00:34:02,001 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3beG7bmh
+2025-03-01 00:34:04,152 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1FBgf6GY
+2025-03-01 00:34:06,331 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/U2yxf4XP
+2025-03-01 00:34:08,787 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/08YwUMR5
+2025-03-01 00:34:10,996 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VnGRDyv3
+2025-03-01 00:34:13,147 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/o6DWVntH
+2025-03-01 00:34:15,338 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kHh870Gs
+2025-03-01 00:34:17,510 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/feZrZfQX
+2025-03-01 00:34:19,730 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ruRDT3LT
+2025-03-01 00:34:21,900 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RljA8uzV
+2025-03-01 00:34:24,075 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RPePHcaU
+2025-03-01 00:34:26,337 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JTAjayLz
+2025-03-01 00:34:28,542 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZZQ6IrHq
+2025-03-01 00:34:30,785 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0dSXth1I
+2025-03-01 00:34:32,974 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Pe0Q4355
+2025-03-01 00:34:35,238 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1P0Nl08m
+2025-03-01 00:34:37,449 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EJ2ywyMC
+2025-03-01 00:34:40,003 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LxYh0Jtq
+2025-03-01 00:34:42,196 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cfMyek57
+2025-03-01 00:34:44,379 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jklYiEaz
+2025-03-01 00:34:46,545 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fATmfPlL
+2025-03-01 00:34:48,723 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5b96vIqa
+2025-03-01 00:34:50,961 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MSThRVFX
+2025-03-01 00:34:53,154 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3IvdFjQJ
+2025-03-01 00:34:55,350 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EL64HgIp
+2025-03-01 00:34:57,550 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lySCzc6L
+2025-03-01 00:34:59,716 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/p7PXL1OM
+2025-03-01 00:35:01,899 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JQIwOjSz
+2025-03-01 00:35:04,082 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ul9Uz9LK
+2025-03-01 00:35:06,268 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/IulAHttJ
+2025-03-01 00:35:08,491 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pb2tY6OB
+2025-03-01 00:35:10,685 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/O82HZ9E2
+2025-03-01 00:35:12,856 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kpQWzjgc
+2025-03-01 00:35:14,975 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kEksGYy8
+2025-03-01 00:35:17,154 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kdif1bq5
+2025-03-01 00:35:19,311 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EpwXhnaa
+2025-03-01 00:35:21,480 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/R8SxC38F
+2025-03-01 00:35:23,690 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CTly5kTa
+2025-03-01 00:35:25,848 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/b5KjThFT
+2025-03-01 00:35:28,023 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8EJJMJYt
+2025-03-01 00:35:30,450 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/S348lwJ7
+2025-03-01 00:35:32,610 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ve25fc1w
+2025-03-01 00:35:34,774 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uxXqy83g
+2025-03-01 00:35:36,994 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hYSoWAuX
+2025-03-01 00:35:39,176 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hNZOOc0x
+2025-03-01 00:35:41,351 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FEGOg9LB
+2025-03-01 00:35:43,527 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qaOfomSk
+2025-03-01 00:35:45,700 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0WjqfO7k
+2025-03-01 00:35:47,889 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2HAC6oqy
+2025-03-01 00:35:50,044 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PriO2jAd
+2025-03-01 00:35:52,235 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/emC9MkmX
+2025-03-01 00:35:54,368 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yHHRfVz2
+2025-03-01 00:35:56,523 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GAEEQk5w
+2025-03-01 00:36:01,815 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TiVdtMeB
+2025-03-01 00:36:03,953 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bIWlKExH
+2025-03-01 00:36:06,110 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zDNPQDwf
+2025-03-01 00:36:08,324 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SlduaIQY
+2025-03-01 00:36:10,464 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9zv4AuyT
+2025-03-01 00:36:12,637 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ezCgCetb
+2025-03-01 00:36:14,849 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8TUw3N9s
+2025-03-01 00:36:16,999 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rG1XqJqK
+2025-03-01 00:36:19,148 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ikos1HKZ
+2025-03-01 00:36:21,305 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FeklkaRu
+2025-03-01 00:36:23,465 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1D6NXYH0
+2025-03-01 00:36:25,570 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZsLHGYTg
+2025-03-01 00:36:27,738 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/je40nNhz
+2025-03-01 00:36:29,861 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9Aucs8Wk
+2025-03-01 00:36:32,019 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ufW321cw
+2025-03-01 00:36:34,177 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9NEltylG
+2025-03-01 00:36:36,479 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1U2vuTHS
+2025-03-01 00:36:38,637 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/s6n3c0Zc
+2025-03-01 00:36:40,797 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wn0QHAVr
+2025-03-01 00:36:42,956 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/g0hpWlQ1
+2025-03-01 00:36:45,113 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VDmpki2A
+2025-03-01 00:36:47,295 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/G1n895Kb
+2025-03-01 00:36:49,473 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xGrSQrYu
+2025-03-01 00:36:51,654 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2knIxPfC
+2025-03-01 00:36:53,845 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lc8yCJFD
+2025-03-01 00:36:55,988 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hISezqtw
+2025-03-01 00:36:58,163 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rvZJiNWL
+2025-03-01 00:37:00,339 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/IvKQhkk9
+2025-03-01 00:37:02,499 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jcaDo8Yw
+2025-03-01 00:37:04,738 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SvPKQKTx
+2025-03-01 00:37:06,893 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/p4XDxxVh
+2025-03-01 00:37:09,094 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sOB0N89A
+2025-03-01 00:37:11,298 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3S78A23M
+2025-03-01 00:37:13,476 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BNhtyS1l
+2025-03-01 00:37:15,674 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Bc0tUyhL
+2025-03-01 00:37:17,811 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MDgaQFlg
+2025-03-01 00:37:19,983 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/X9ex5Ots
+2025-03-01 00:37:22,178 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/KIEOQzXL
+2025-03-01 00:37:24,393 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZZVMyBIc
+2025-03-01 00:37:26,581 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tN7gvf0E
+2025-03-01 00:37:28,775 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Gxre8QcM
+2025-03-01 00:37:30,965 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lR1cWrnn
+2025-03-01 00:37:33,154 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/w3AXQo5h
+2025-03-01 00:37:35,425 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lkRwPJpN
+2025-03-01 00:37:37,735 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gsQJ6ZxS
+2025-03-01 00:37:39,940 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZXypCRIl
+2025-03-01 00:37:42,109 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nydN1vZi
+2025-03-01 00:37:44,307 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rmHL0Mcl
+2025-03-01 00:37:46,488 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/d5LqzcfU
+2025-03-01 00:37:48,660 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wvb53CUA
+2025-03-01 00:37:50,818 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vEuHzl6G
+2025-03-01 00:37:52,991 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dSlJsb1g
+2025-03-01 00:37:55,121 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WTABCLtH
+2025-03-01 00:37:57,290 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Or7nILcp
+2025-03-01 00:37:59,468 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2nuoxhoE
+2025-03-01 00:38:02,148 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RA1hcxal
+2025-03-01 00:38:04,309 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0jtQAeNA
+2025-03-01 00:38:06,467 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vN1P5m66
+2025-03-01 00:38:08,661 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8iSl34hX
+2025-03-01 00:38:10,804 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kRFUZGhU
+2025-03-01 00:38:12,974 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4tEjoeF5
+2025-03-01 00:38:15,143 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eh2TNW86
+2025-03-01 00:38:17,305 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YpuqZEdd
+2025-03-01 00:38:19,458 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1ps6wuOz
+2025-03-01 00:38:21,548 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BRb6s0fz
+2025-03-01 00:38:23,744 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XfE1x0HZ
+2025-03-01 00:38:26,107 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8pYfxjXv
+2025-03-01 00:38:28,290 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/h4MynEKm
+2025-03-01 00:38:30,486 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gnSbFf5t
+2025-03-01 00:38:32,666 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7WWx9hAC
+2025-03-01 00:38:34,876 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/69nLAdPo
+2025-03-01 00:38:37,048 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QMaY4qFv
+2025-03-01 00:38:39,222 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wiCCx2VN
+2025-03-01 00:38:41,384 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/aDqhj3nt
+2025-03-01 00:38:43,560 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UHXR7kXp
+2025-03-01 00:38:45,754 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/6XjQo6WM
+2025-03-01 00:38:47,933 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9YaaPO77
+2025-03-01 00:38:50,041 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jcDNCPyo
+2025-03-01 00:38:52,249 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kP9aFiIW
+2025-03-01 00:38:54,371 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zcj3VxzC
+2025-03-01 00:38:56,512 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Jmh3T7CH
+2025-03-01 00:38:58,706 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZqYBMwQd
+2025-03-01 00:39:00,834 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/3r0CAta2
+2025-03-01 00:39:03,051 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zzrjiNe7
+2025-03-01 00:39:05,224 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vkIKSHzg
+2025-03-01 00:39:07,415 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dZSZ7AD1
+2025-03-01 00:39:09,654 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0XP3H7nL
+2025-03-01 00:39:11,828 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2baQ46dm
+2025-03-01 00:39:14,021 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/I30Pt2vc
+2025-03-01 00:39:16,183 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/z9ixHTWZ
+2025-03-01 00:39:18,419 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7Q8N05AW
+2025-03-01 00:39:20,675 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ILoGc2cA
+2025-03-01 00:39:22,861 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZfwjXeDu
+2025-03-01 00:39:25,006 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/E7S50Qd9
+2025-03-01 00:39:27,173 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YxBHSLin
+2025-03-01 00:39:29,361 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AICLMf2p
+2025-03-01 00:39:31,556 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HuOaqkRh
+2025-03-01 00:39:33,711 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ms3uAtPQ
+2025-03-01 00:39:35,968 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/S62aV5KM
+2025-03-01 00:39:38,155 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/B7KUMyWw
+2025-03-01 00:39:40,343 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/J3T0UbLK
+2025-03-01 00:39:42,524 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/37Q8OZNU
+2025-03-01 00:39:44,730 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yJTqNMbb
+2025-03-01 00:39:46,852 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TjeLz8zH
+2025-03-01 00:39:49,010 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZdFFBdFT
+2025-03-01 00:39:51,253 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5Jq5F1gC
+2025-03-01 00:39:53,408 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YberDUGn
+2025-03-01 00:39:55,561 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/G5B72NfB
+2025-03-01 00:39:57,700 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PYTsPN0r
+2025-03-01 00:39:59,891 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RJd3bxAY
+2025-03-01 00:40:02,091 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WQM9F5qd
+2025-03-01 00:40:04,286 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/k2WCuWM8
+2025-03-01 00:40:06,444 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/OoWwS8eP
+2025-03-01 00:40:08,613 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/l704UX9O
+2025-03-01 00:40:10,759 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SM12PgWQ
+2025-03-01 00:40:12,972 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kXYuzMVs
+2025-03-01 00:40:15,151 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8sWfKkiU
+2025-03-01 00:40:17,348 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HNZAVvEu
+2025-03-01 00:40:19,560 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MfWrb37K
+2025-03-01 00:40:21,717 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vLnsukoX
+2025-03-01 00:40:23,915 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FO3sMKzv
+2025-03-01 00:40:26,050 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lPOgRLTX
+2025-03-01 00:40:28,290 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AsVsGFCq
+2025-03-01 00:40:30,482 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq
+2025-03-01 00:40:32,747 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CXLvzRHp
+2025-03-01 00:40:34,909 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kGgLYNra
+2025-03-01 00:40:37,458 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qBazQsVJ
+2025-03-01 00:40:40,066 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mn4Z5Bma
+2025-03-01 00:40:42,233 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kT8zbn8O
+2025-03-01 00:40:44,442 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YNXT2TFX
+2025-03-01 00:40:46,609 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EDxEGz4q
+2025-03-01 00:40:48,794 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/51VM0qGG
+2025-03-01 00:40:51,479 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RH2pGDC6
+2025-03-01 00:40:53,746 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZjWVKUOh
+2025-03-01 00:40:55,962 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/CrF9bzaI
+2025-03-01 00:40:58,164 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/E4C2Qp3R
+2025-03-01 00:41:00,431 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1wz8q5wi
+2025-03-01 00:41:02,889 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/x6XLEFcp
+2025-03-01 00:41:05,081 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zT2XkLRX
+2025-03-01 00:41:07,267 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BBvIfWgK
+2025-03-01 00:41:09,463 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HOZgtVXq
+2025-03-01 00:41:11,642 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wjs0bHYB
+2025-03-01 00:41:13,784 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PNS1YxFc
+2025-03-01 00:41:16,476 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HErOFgNN
+2025-03-01 00:41:18,664 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TJwx8kkS
+2025-03-01 00:41:20,958 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wn1rYdKO
+2025-03-01 00:41:23,171 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Jkpvna9G
+2025-03-01 00:41:25,508 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Yab6dE8h
+2025-03-01 00:41:27,724 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pwkG9aso
+2025-03-01 00:41:29,944 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/56a4lW1u
+2025-03-01 00:41:32,078 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YqPM14us
+2025-03-01 00:41:34,264 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FtTH60cj
+2025-03-01 00:41:36,571 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TmOjAIH7
+2025-03-01 00:41:38,759 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/whEHkPZx
+2025-03-01 00:41:40,961 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jQtDvYXT
+2025-03-01 00:41:43,109 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vKBmFbCP
+2025-03-01 00:41:45,273 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zn1zBd2u
+2025-03-01 00:41:47,471 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/swrwomsh
+2025-03-01 00:41:49,665 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hbMLCcC9
+2025-03-01 00:41:52,144 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gQ08FcXb
+2025-03-01 00:41:54,306 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HjIfrSVH
+2025-03-01 00:41:56,479 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PPAkNoIf
+2025-03-01 00:41:58,665 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/DncVHk02
+2025-03-01 00:42:00,857 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/j9T9n6fG
+2025-03-01 00:42:03,044 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rpWAufXk
+2025-03-01 00:42:05,255 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZNQcn6qI
+2025-03-01 00:42:07,457 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/w3IJvnc0
+2025-03-01 00:42:09,676 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BuDeqvzs
+2025-03-01 00:42:12,080 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/geZ0HDq3
+2025-03-01 00:42:14,284 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GO4ibcPR
+2025-03-01 00:42:16,443 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vXibixtZ
+2025-03-01 00:42:18,633 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FUiR9Rqb
+2025-03-01 00:42:20,793 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WyqdLcia
+2025-03-01 00:42:22,957 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RmEpoyDX
+2025-03-01 00:42:25,062 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/R1aYnFlP
+2025-03-01 00:42:27,229 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Ei7GxLFw
+2025-03-01 00:42:29,431 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tPCaz5A7
+2025-03-01 00:42:31,614 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ceGXelmb
+2025-03-01 00:42:33,793 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/id53bY9z
+2025-03-01 00:42:36,489 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Uuk8xmzG
+2025-03-01 00:42:38,641 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xyZ7I14N
+2025-03-01 00:42:41,120 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/M1wKU03z
+2025-03-01 00:42:43,291 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vQgt206g
+2025-03-01 00:42:45,435 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RE49fQ8O
+2025-03-01 00:42:47,586 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hGEjconb
+2025-03-01 00:42:49,764 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tHfojxNA
+2025-03-01 00:42:51,910 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MhHmiD69
+2025-03-01 00:42:54,247 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bn3S8wst
+2025-03-01 00:42:56,405 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Fy1BiON5
+2025-03-01 00:42:58,566 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/U46zNrr6
+2025-03-01 00:43:00,770 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Psg95wBG
+2025-03-01 00:43:02,892 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/qSUbPIm2
+2025-03-01 00:43:05,107 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bPfSRrfF
+2025-03-01 00:43:07,279 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/m9boall8
+2025-03-01 00:43:09,501 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QGl65LJJ
+2025-03-01 00:43:11,713 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2PHsoS0l
+2025-03-01 00:43:13,855 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PBwWxVhk
+2025-03-01 00:43:16,025 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Hnrqbam3
+2025-03-01 00:43:18,215 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/h7I8ekwv
+2025-03-01 00:43:20,399 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xP4nTRiX
+2025-03-01 00:43:22,828 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TBLvJ3Wq
+2025-03-01 00:43:24,982 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/W2BvbA5Q
+2025-03-01 00:43:27,154 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JHVbqMKj
+2025-03-01 00:43:29,317 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/K2BWctCe
+2025-03-01 00:43:31,508 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xmLNqC3G
+2025-03-01 00:43:33,690 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Q9GVFW33
+2025-03-01 00:43:35,921 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/J5Q0vFr1
+2025-03-01 00:43:38,098 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/k1Z2Puxy
+2025-03-01 00:43:40,424 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dzvkQrUI
+2025-03-01 00:43:42,640 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UDM3Yasl
+2025-03-01 00:43:44,814 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wGFqQqR2
+2025-03-01 00:43:46,992 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Vm3v6mNv
+2025-03-01 00:43:49,222 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0x5YD6Ig
+2025-03-01 00:43:51,413 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FxtReu6V
+2025-03-01 00:43:53,588 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/It13tsFg
+2025-03-01 00:43:55,745 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/itWq3S4w
+2025-03-01 00:43:58,222 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/SvxcIgbt
+2025-03-01 00:44:00,396 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ayNxpTwH
+2025-03-01 00:44:02,598 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nZRMy1Oa
+2025-03-01 00:44:04,844 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ACvHVFM6
+2025-03-01 00:44:06,985 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nZV4B8Xz
+2025-03-01 00:44:09,458 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fg4hsOK0
+2025-03-01 00:44:11,661 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UElieGno
+2025-03-01 00:44:13,859 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/c5hSIzaY
+2025-03-01 00:44:16,012 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XBmRDxpc
+2025-03-01 00:44:18,185 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Fj3gSrf1
+2025-03-01 00:44:20,385 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/RD6PU1xK
+2025-03-01 00:44:22,567 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/m9tDqyN6
+2025-03-01 00:44:24,803 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/oDLorC8K
+2025-03-01 00:44:27,002 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/6XPYWLzJ
+2025-03-01 00:44:29,242 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/DSc1Ylnf
+2025-03-01 00:44:31,503 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pzWz8XQD
+2025-03-01 00:44:33,713 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7cXTK3p5
+2025-03-01 00:44:35,870 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2HsxUfPb
+2025-03-01 00:44:38,093 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/17rwe2D4
+2025-03-01 00:44:40,590 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2lgUvVcr
+2025-03-01 00:44:42,930 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MCtBxvoq
+2025-03-01 00:44:45,124 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hz4rcOUB
+2025-03-01 00:44:47,808 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1NHabNzp
+2025-03-01 00:44:50,026 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vNFCRp3o
+2025-03-01 00:44:52,221 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2iBCyfE1
+2025-03-01 00:44:54,408 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gXt6Wgk5
+2025-03-01 00:44:56,604 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GgakrOEQ
+2025-03-01 00:44:58,886 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cbmFNiQj
+2025-03-01 00:45:01,094 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eBqqrRLd
+2025-03-01 00:45:03,318 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/J2qWtwjK
+2025-03-01 00:45:05,564 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MvsaCtiQ
+2025-03-01 00:45:07,826 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8OryVMqS
+2025-03-01 00:45:10,015 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eR9zHeix
+2025-03-01 00:45:12,270 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zBqw3og4
+2025-03-01 00:45:14,492 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pJKKfF2C
+2025-03-01 00:45:16,722 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Gm5Qf44Y
+2025-03-01 00:45:19,004 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jG59BUZM
+2025-03-01 00:45:21,204 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dtBfKb8w
+2025-03-01 00:45:23,498 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/g4IPN5HL
+2025-03-01 00:45:25,628 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4PrOakwo
+2025-03-01 00:45:27,835 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EVqUyzdC
+2025-03-01 00:45:30,180 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vSBH0gCK
+2025-03-01 00:45:32,343 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/pDQYTu4a
+2025-03-01 00:45:34,564 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Cd5gJnrc
+2025-03-01 00:45:36,803 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/DkjW0pD4
+2025-03-01 00:45:39,079 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4OxG2uIw
+2025-03-01 00:45:41,299 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dFZyvm9F
+2025-03-01 00:45:43,667 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PGnGqfhW
+2025-03-01 00:45:45,906 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lgrBs0T3
+2025-03-01 00:45:48,207 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/W8ZP5YIS
+2025-03-01 00:45:50,412 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YXhhTBJw
+2025-03-01 00:45:52,605 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jFfaK3Su
+2025-03-01 00:45:54,801 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9LIcUGoQ
+2025-03-01 00:45:57,006 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/g53Jlo6v
+2025-03-01 00:45:59,750 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ujTRUswo
+2025-03-01 00:46:01,965 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QmSIkjhD
+2025-03-01 00:46:04,160 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/n5T0obJl
+2025-03-01 00:46:06,380 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/oCmES02Y
+2025-03-01 00:46:08,614 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2J1Xedwf
+2025-03-01 00:46:10,844 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wjvcrI1H
+2025-03-01 00:46:13,078 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/f0LdTGMn
+2025-03-01 00:46:15,218 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ULohWfG0
+2025-03-01 00:46:17,482 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/IvRmwXNu
+2025-03-01 00:46:19,697 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wbPGeN3c
+2025-03-01 00:46:21,897 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yaKP2iJK
+2025-03-01 00:46:24,113 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vDpvoKOO
+2025-03-01 00:46:26,359 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bjZbaHmZ
+2025-03-01 00:46:28,565 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/h8Np6Hjm
+2025-03-01 00:46:30,738 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/OT2uo8EB
+2025-03-01 00:46:32,886 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/olstmZZX
+2025-03-01 00:46:35,078 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZKdPvH2Y
+2025-03-01 00:46:37,312 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HBUJwOG6
+2025-03-01 00:46:40,006 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ItQ0NNLd
+2025-03-01 00:46:42,199 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5aHLiSHA
+2025-03-01 00:46:44,563 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/R3HQnNal
+2025-03-01 00:46:47,121 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/J0JxiboU
+2025-03-01 00:46:49,244 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/NMgsk1bT
+2025-03-01 00:46:51,451 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Vqi9wYEF
+2025-03-01 00:46:53,643 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/oWpd8ZlQ
+2025-03-01 00:46:55,789 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jZT1muPe
+2025-03-01 00:46:57,971 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/9wF06HWE
+2025-03-01 00:47:00,169 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/WGGtU8Pp
+2025-03-01 00:47:02,360 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PSQ7VA51
+2025-03-01 00:47:04,524 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AcxhU0zS
+2025-03-01 00:47:06,754 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BZ43Q9ap
+2025-03-01 00:47:08,959 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/QsnvlGFj
+2025-03-01 00:47:11,163 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sTY158cC
+2025-03-01 00:47:13,460 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/v3nOs3uY
+2025-03-01 00:47:16,310 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/0RUIkWHR
+2025-03-01 00:47:18,460 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ugO4HoEX
+2025-03-01 00:47:20,927 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tLgwQubw
+2025-03-01 00:47:23,095 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zULf6hi2
+2025-03-01 00:47:25,188 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4r2YA3FP
+2025-03-01 00:47:27,401 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XkJwt5qM
+2025-03-01 00:47:29,580 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/k3hMrNAM
+2025-03-01 00:47:32,293 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/P02aeTf1
+2025-03-01 00:47:34,549 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tfWkLOvU
+2025-03-01 00:47:36,833 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jQVBjutq
+2025-03-01 00:47:39,041 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TPLloS04
+2025-03-01 00:47:41,285 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mcGJgKFf
+2025-03-01 00:47:43,491 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/p1VXRP5k
+2025-03-01 00:47:45,662 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ALJxiVDx
+2025-03-01 00:47:47,881 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/m9ScOEh7
+2025-03-01 00:47:50,104 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Orz9SFRa
+2025-03-01 00:47:52,253 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UEJ1lgrT
+2025-03-01 00:47:54,501 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/rhDWo6D5
+2025-03-01 00:47:56,658 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/u0MSV3iB
+2025-03-01 00:47:58,831 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sgxtDFa5
+2025-03-01 00:48:00,986 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/O3vqQRkr
+2025-03-01 00:48:03,165 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gsITMRsG
+2025-03-01 00:48:05,348 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/So3JrqTr
+2025-03-01 00:48:07,545 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1wSHVbTn
+2025-03-01 00:48:09,696 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1w5c8prs
+2025-03-01 00:48:11,848 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/U7o5GqYJ
+2025-03-01 00:48:14,067 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/i5NhLn1p
+2025-03-01 00:48:16,241 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dWqGmh50
+2025-03-01 00:48:18,406 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Ei7QONKZ
+2025-03-01 00:48:20,651 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ygjnwJrh
+2025-03-01 00:48:22,841 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/L9MXXYvq
+2025-03-01 00:48:24,989 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7Cr2y0Tz
+2025-03-01 00:48:27,440 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JYeBJNnX
+2025-03-01 00:48:29,779 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/F3JBSbRA
+2025-03-01 00:48:31,991 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VHsxHvmU
+2025-03-01 00:48:34,365 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1hgAURBM
+2025-03-01 00:48:36,622 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EllLnlI3
+2025-03-01 00:48:38,883 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xi4glfGT
+2025-03-01 00:48:41,085 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GDw7Ye9P
+2025-03-01 00:48:43,238 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nJ11qrmn
+2025-03-01 00:48:45,402 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Spg694FC
+2025-03-01 00:48:47,602 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/c5QapZPe
+2025-03-01 00:48:49,929 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Is3b6kJY
+2025-03-01 00:48:52,597 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Q4Fi1QO2
+2025-03-01 00:48:54,794 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zwGmPCW4
+2025-03-01 00:48:57,479 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LJFxxqPR
+2025-03-01 00:48:59,724 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5mwJqpNr
+2025-03-01 00:49:01,911 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vWus38MA
+2025-03-01 00:49:04,095 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/s892c1ox
+2025-03-01 00:49:06,267 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ea988u8M
+2025-03-01 00:49:08,431 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/HgyLX6dS
+2025-03-01 00:49:10,637 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/H0ek5yGF
+2025-03-01 00:49:12,941 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7V7IoGNf
+2025-03-01 00:49:15,099 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ZnkMCnGI
+2025-03-01 00:49:17,802 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ePnjKlJs
+2025-03-01 00:49:19,979 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Q4Xo7e02
+2025-03-01 00:49:22,196 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/vdfYuJ1T
+2025-03-01 00:49:24,410 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BSZuXNeN
+2025-03-01 00:49:26,596 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gxybLP1E
+2025-03-01 00:49:28,819 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UpKWcuIO
+2025-03-01 00:49:31,016 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/F5dAfrP2
+2025-03-01 00:49:33,164 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4cIGjw9I
+2025-03-01 00:49:35,359 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/NjFg0H2U
+2025-03-01 00:49:37,500 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ShD0pC22
+2025-03-01 00:49:39,671 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EzEicWoN
+2025-03-01 00:49:42,443 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eW0iWrUd
+2025-03-01 00:49:44,648 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hUU6NiA5
+2025-03-01 00:49:46,993 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/OhHLnbUs
+2025-03-01 00:49:49,202 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tnfFXf7R
+2025-03-01 00:49:51,375 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AAi9cvHh
+2025-03-01 00:49:53,559 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Jyluo9Me
+2025-03-01 00:49:55,845 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4azgJFTu
+2025-03-01 00:49:58,027 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EMOQ4Zai
+2025-03-01 00:50:00,206 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PrGVjiXp
+2025-03-01 00:50:02,380 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TbEfG95X
+2025-03-01 00:50:04,661 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wUawVPHg
+2025-03-01 00:50:06,873 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VbS59H79
+2025-03-01 00:50:09,076 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XJDzk1aT
+2025-03-01 00:50:11,288 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/REtcIxkX
+2025-03-01 00:50:13,481 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/umFX98b3
+2025-03-01 00:50:15,700 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/xNd20Xxl
+2025-03-01 00:50:17,901 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/EbdTUjTt
+2025-03-01 00:50:20,149 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/nMmWtAcL
+2025-03-01 00:50:22,376 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YWXy0zcM
+2025-03-01 00:50:25,636 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fzWZkAN8
+2025-03-01 00:50:27,774 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fxFT6AGX
+2025-03-01 00:50:29,966 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wDsxqdYZ
+2025-03-01 00:50:32,272 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yO4fTbNn
+2025-03-01 00:50:34,423 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/zPxrHSCN
+2025-03-01 00:50:36,625 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/XQzR5ztG
+2025-03-01 00:50:39,054 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/GmhQaSN2
+2025-03-01 00:50:41,262 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/KuI0XBxq
+2025-03-01 00:50:43,574 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/v3W6m6tQ
+2025-03-01 00:50:45,801 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8GgkzjIp
+2025-03-01 00:50:48,112 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BzqiKO7c
+2025-03-01 00:50:50,399 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/UPlZRXS6
+2025-03-01 00:50:52,583 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YwGArhRg
+2025-03-01 00:50:54,757 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VA7vChDJ
+2025-03-01 00:50:56,902 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/mntuSDf4
+2025-03-01 00:50:59,032 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bNj9kMRL
+2025-03-01 00:51:01,268 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VLmTvWI1
+2025-03-01 00:51:03,534 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TJsq52Ma
+2025-03-01 00:51:05,698 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cUPgOrvY
+2025-03-01 00:51:07,874 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/O8ZokNAN
+2025-03-01 00:51:09,963 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/s2dcBFqV
+2025-03-01 00:51:12,654 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/H2LcKmLu
+2025-03-01 00:51:14,860 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/MB5Hx1cQ
+2025-03-01 00:51:17,312 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/PNHsZcwK
+2025-03-01 00:51:19,513 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/2nSruNqh
+2025-03-01 00:51:21,693 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FgTgRVLt
+2025-03-01 00:51:23,991 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/prrqTQ0w
+2025-03-01 00:51:26,126 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/tYPU30WM
+2025-03-01 00:51:28,326 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lrlIJNDY
+2025-03-01 00:51:30,499 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/bkpeTfKY
+2025-03-01 00:51:32,711 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7tWkRGDw
+2025-03-01 00:51:34,900 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Buhmdv7T
+2025-03-01 00:51:37,655 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/hb1drQ80
+2025-03-01 00:51:39,904 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/gdeHCIGo
+2025-03-01 00:51:42,080 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Y6kuHa8J
+2025-03-01 00:51:44,296 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/eNOm24S7
+2025-03-01 00:51:47,066 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dl40DRGx
+2025-03-01 00:51:49,312 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4pziqZc9
+2025-03-01 00:51:51,504 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/JUonri8T
+2025-03-01 00:51:53,682 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wYY0EsVx
+2025-03-01 00:51:55,941 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/kbtzd1xx
+2025-03-01 00:51:58,099 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/wYwovEnP
+2025-03-01 00:52:00,358 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/YsfWtGqw
+2025-03-01 00:52:02,619 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/fhWh7het
+2025-03-01 00:52:04,998 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sGAaFNqJ
+2025-03-01 00:52:07,217 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/f2CgfI1k
+2025-03-01 00:52:09,379 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/N955hgeq
+2025-03-01 00:52:11,536 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/jAxP1ZpV
+2025-03-01 00:52:14,201 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/LE7kvNMh
+2025-03-01 00:52:16,397 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7CgFLxQI
+2025-03-01 00:52:18,608 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Pquk5CIB
+2025-03-01 00:52:20,839 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ap4EPHJ0
+2025-03-01 00:52:23,331 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ev4TPeRU
+2025-03-01 00:52:25,517 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/dksIFqMl
+2025-03-01 00:52:27,735 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Swv0QBd6
+2025-03-01 00:52:29,940 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/BzchcsAz
+2025-03-01 00:52:32,142 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ylOolPrk
+2025-03-01 00:52:34,473 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/k7Be74Yb
+2025-03-01 00:52:36,665 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/f6AzMPDE
+2025-03-01 00:52:38,890 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AiVzorYn
+2025-03-01 00:52:41,078 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/cU578BOg
+2025-03-01 00:52:43,258 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Vro3kgDy
+2025-03-01 00:52:45,486 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/58Y5QOU4
+2025-03-01 00:52:47,697 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/iW52iFny
+2025-03-01 00:52:50,186 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8Bri0gD2
+2025-03-01 00:52:52,387 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/FzzHizYK
+2025-03-01 00:52:54,705 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AkmWPTCo
+2025-03-01 00:52:57,435 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/ILTtSkvT
+2025-03-01 00:52:59,620 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4WYrEknl
+2025-03-01 00:53:01,915 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uZY2MwtW
+2025-03-01 00:53:05,195 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sJVwWlZC
+2025-03-01 00:53:07,499 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/yhvtRC8Q
+2025-03-01 00:53:09,705 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/h1cavSzn
+2025-03-01 00:53:12,060 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/Hm79LwKE
+2025-03-01 00:53:14,339 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/TD3u7S00
+2025-03-01 00:53:16,593 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/DaL4hA2U
+2025-03-01 00:53:18,829 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/1cdz6AiW
+2025-03-01 00:53:21,053 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/5wmAYhSk
+2025-03-01 00:53:23,303 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/IKbrxrQN
+2025-03-01 00:53:25,601 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/uDb1lTU7
+2025-03-01 00:53:27,798 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/AR3DqQ9V
+2025-03-01 00:53:30,002 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/DdUT09pZ
+2025-03-01 00:53:32,312 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lnptRFqq
+2025-03-01 00:53:34,594 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7d7Sxtqo
+2025-03-01 00:53:37,372 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/4AOvJGmH
+2025-03-01 00:53:39,586 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/sAnco83F
+2025-03-01 00:53:41,805 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/8WVcr5Cn
+2025-03-01 00:53:43,991 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/VIJfR79a
+2025-03-01 00:53:46,270 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/lZ90KM9Z
+2025-03-01 00:53:48,652 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2022/projects/7b6vmFqS
+2025-03-01 00:53:50,924 - INFO - Data saved to scraped_projects.csv
+2025-03-01 00:53:51,338 - INFO - Browser closed.
+2025-03-01 00:53:51,338 - INFO - Scraping complete!
+FO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/jznxtKv0
+2025-03-01 00:50:05,190 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/IvXRHeSE
+2025-03-01 00:50:07,424 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/73pPzJxi
+2025-03-01 00:50:09,649 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/8UtMfDDl
+2025-03-01 00:50:11,871 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/g7zlNzjA
+2025-03-01 00:50:14,068 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/54jsoOFK
+2025-03-01 00:50:16,238 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/ZGHwrpR4
+2025-03-01 00:50:18,469 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/tqzvhY0X
+2025-03-01 00:50:20,661 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/uhg6KdKq
+2025-03-01 00:50:22,825 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/XqTXrHGb
+2025-03-01 00:50:25,058 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/plyDlESx
+2025-03-01 00:50:27,274 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/ehBYTrDa
+2025-03-01 00:50:29,560 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/M6IH4Vev
+2025-03-01 00:50:31,754 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/Mlprjv9j
+2025-03-01 00:50:33,943 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/F5rtYZQU
+2025-03-01 00:50:36,078 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/ukbrVzY3
+2025-03-01 00:50:38,365 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/YuFVUFYb
+2025-03-01 00:50:40,780 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/5PYvMkWW
+2025-03-01 00:50:43,028 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/eSwQPuN5
+2025-03-01 00:50:45,206 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/xjPeiv1d
+2025-03-01 00:50:47,578 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/8EzEWh3G
+2025-03-01 00:50:49,800 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/B8qSy9dO
+2025-03-01 00:50:51,945 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/GNfjYVmg
+2025-03-01 00:50:54,141 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/fCnBGuEC
+2025-03-01 00:50:56,288 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/ZnoBajlM
+2025-03-01 00:50:58,474 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/bPNLtjOq
+2025-03-01 00:51:00,689 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/NEYEC0Wt
+2025-03-01 00:51:02,906 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/j7NR4pqk
+2025-03-01 00:51:05,115 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/Qy0aJ5SQ
+2025-03-01 00:51:07,278 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/uO9QhnX7
+2025-03-01 00:51:09,787 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/VwqY0F33
+2025-03-01 00:51:11,975 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/Z5JjlB0f
+2025-03-01 00:51:14,151 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/xz92GQuc
+2025-03-01 00:51:16,297 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/yma73MGc
+2025-03-01 00:51:18,968 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/Ji2Mi97o
+2025-03-01 00:51:21,163 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/AthhdF8W
+2025-03-01 00:51:23,340 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/CG19DjKW
+2025-03-01 00:51:25,549 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/aJ9fBfct
+2025-03-01 00:51:27,753 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/dz0PI5I1
+2025-03-01 00:51:29,940 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/KtMVbc3b
+2025-03-01 00:51:32,129 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/H3cVMp9T
+2025-03-01 00:51:34,325 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/QW0rSsmj
+2025-03-01 00:51:37,129 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/ifTWS4l5
+2025-03-01 00:51:39,898 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/5ulwxFaQ
+2025-03-01 00:51:42,087 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/fZjAmqMP
+2025-03-01 00:51:44,277 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/2H2oqjBC
+2025-03-01 00:51:47,066 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/QgW8LR3a
+2025-03-01 00:51:49,312 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/4Zh4wnzY
+2025-03-01 00:51:51,503 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/mEC7s9zc
+2025-03-01 00:51:53,708 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/gSURYDFF
+2025-03-01 00:51:55,922 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/k5ZLKdEd
+2025-03-01 00:51:58,104 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/5FA1ctxn
+2025-03-01 00:52:00,358 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/QckhmL6q
+2025-03-01 00:52:02,628 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/zUHIbtvx
+2025-03-01 00:52:04,983 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/e9I8o8K9
+2025-03-01 00:52:07,197 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/8qKxblbL
+2025-03-01 00:52:09,377 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/pxKTLC5J
+2025-03-01 00:52:11,555 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/26o3C4CV
+2025-03-01 00:52:14,223 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/W5JmdBcW
+2025-03-01 00:52:16,391 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/Em6whXe4
+2025-03-01 00:52:18,589 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/dStHfDX7
+2025-03-01 00:52:20,845 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/FGmF8gS3
+2025-03-01 00:52:23,330 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/zrlTsZo4
+2025-03-01 00:52:25,535 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/6xi6NP33
+2025-03-01 00:52:27,720 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/PxEnkiBZ
+2025-03-01 00:52:29,918 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/o4Um6C8Z
+2025-03-01 00:52:32,143 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/eVxOuKT2
+2025-03-01 00:52:34,495 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/XF1NcQuS
+2025-03-01 00:52:36,680 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/PEvVr15z
+2025-03-01 00:52:38,872 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/6T65nrnD
+2025-03-01 00:52:41,041 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/SprO8wOO
+2025-03-01 00:52:43,260 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/mlXZWw0L
+2025-03-01 00:52:45,490 - INFO - Scraping project: https://summerofcode.withgoogle.com/programs/2024/projects/PHzAr41l
+2025-03-01 00:52:47,734 - INFO - Data saved to scraped_projects.csv
+2025-03-01 00:52:48,325 - INFO - Browser closed.
+2025-03-01 00:52:48,326 - INFO - Scraping complete!
